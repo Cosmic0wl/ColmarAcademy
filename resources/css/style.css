@@ -36,6 +36,11 @@ nav {
   max-width: 60%;
   border: 1px solid aquamarine;
 }
+
+.descr {
+  border: 1px solid blue;
+}
+
 /* CONTENT */
 /* INFO BAR */
 /* COURSES CATALOG */
