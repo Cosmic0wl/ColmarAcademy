@@ -10,10 +10,6 @@ body {
   display: flex;
 }
 
-.container {
-  padding-left: 24px;
-  padding-right: 24px;
-}
 
 /* HEADER */
 header {
@@ -29,6 +25,7 @@ header {
   height: 32px;
   display: flex;
   align-items: center;
+  padding-left: 24px;
 }
 
 nav {
@@ -43,6 +40,7 @@ nav {
 .student img {
   width: 60%;
   border: 1px solid aquamarine;
+  padding-left: 24px;
 }
 
 .descr {
@@ -51,7 +49,7 @@ nav {
 
 /* CONTENT */
 .content {
-  
+
 }
 
 /* INFO BAR */
@@ -68,6 +66,8 @@ nav {
 
 .item img {
   width: 35%;
+  height: auto;
+  padding: 16px;
 }
 /* COURSES CATALOG */
 /* THESIS EXHIBIT */
