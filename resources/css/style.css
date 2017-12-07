@@ -72,17 +72,20 @@ nav {
 /* COURSES CATALOG */
 .catalog {
   padding: 32px 72px;
+  width: 100%;
+  flex-wrap: wrap;
 }
 
 .course {
   border: 1px solid yellow;
-  width: 60%;
-  align-items: center;
+  width: 33%;
+  display: inline-block;
+  flex-grow: 1;
 }
 
 .course img {
   height: auto;
-  max-width: 30%;
+  width: 100%;
 }
 /* THESIS EXHIBIT */
 /* FOOTER */
