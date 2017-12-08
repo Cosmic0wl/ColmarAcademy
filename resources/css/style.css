@@ -11,7 +11,15 @@ body {
   display: flex;
 }
 
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
 
+h3 {
+  font-size: 1rem;
+  font-weight: bold;
+}
 /* HEADER */
 header {
  width: 100%;
@@ -53,6 +61,16 @@ nav {
 
 .descr {
   border: 1px solid blue;
+  flex-direction: column;
+  align-items: center;
+}
+
+.descr p {
+  background-color: darkgrey;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  width: 100%;
+  text-align: center;
 }
 .student {
   padding: 2rem 1.5rem;
@@ -63,18 +81,21 @@ nav {
 /* CONTENT */
 .content {
   width: 100%;
+  align-items: flex-start;
 }
 
 /* INFO BAR */
 .info {
   width: 40%;
   border: solid 1px green;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 .item {
   border: 1px solid purple;
   display: flex;
   align-items: center;
-  width: 65%;
+  width: 100%;
 }
 
 .item img {
@@ -82,7 +103,17 @@ nav {
   height: auto;
   padding: 16px;
 }
+
+.item text {
+  width: 65%;
+}
+
 /* COURSES CATALOG */
+.title {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  justify-content: center;
+}
 .catalog {
   padding: 2rem 4.5rem;
   flex-wrap: wrap;
