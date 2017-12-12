@@ -130,7 +130,6 @@ nav a:active {
 .content {
   width: 100%;
   align-items: flex-start;
-  margin-bottom: 2rem;
 }
 
 .content:hover {
@@ -191,7 +190,7 @@ nav a:active {
 
 /* COURSES CATALOG */
 .title {
-  margin-top: 2rem;
+  padding-top: 2rem;
   margin-bottom: 2rem;
   justify-content: center;
 }
@@ -272,6 +271,10 @@ footer span{
 }
 .copyright, .terms {
   margin-top: 1rem;
+}
+
+.terms:hover {
+  opacity: 0.8;
 }
 
 .copyright {
