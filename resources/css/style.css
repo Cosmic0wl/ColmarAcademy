@@ -41,7 +41,11 @@ header {
 }
 
 nav {
-  padding-right: 2rem;
+  padding-right: 0.5rem;
+}
+
+nav a {
+  padding-right: 1rem;
 }
 
 /* CONTAINER */
@@ -54,7 +58,6 @@ nav {
 
 /* BANNER */
 .banner {
-  background-color: lightgrey;
   align-items: center;
   margin-top: 2rem;
   padding-top: 2rem;
@@ -74,30 +77,31 @@ nav {
 }
 
 .description {
-  border: 1px solid blue;
   width: 40%;
+  padding-right: 1.5rem;
 }
 
 .button {
-  border: 1px solid red;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  width: 55%;
+  width: 100%;
+  line-height: 2rem;
 }
 
 .button h1 {
   font-weight: bold;
   font-size: 2rem;
   padding-bottom: 0.5rem;
+  color: #3393FF;
 }
 
-.button span, .item p, .item a, .item h3 {
+.button h4, .item p, .item a, .item h3 {
   padding-bottom: 0.5rem;
 }
 
 .button p {
-  background-color: #282C2F;
+  background-color: #3393FF;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   text-align: center;
@@ -164,7 +168,6 @@ nav {
 .catalog {
   padding: 2rem 4.5rem;
   flex-wrap: wrap;
-  background-color: lightgrey;
 }
 
 .course {
@@ -177,6 +180,7 @@ nav {
   line-height: 1rem;
   overflow: hidden;
   background-color: white;
+  border: 0.0125rem solid lightgrey;
 }
 
 .course img {
@@ -233,7 +237,9 @@ footer span{
 .copyright {
   padding-left: 2rem;
 }
-
+.terms {
+  padding-right: 1rem;
+}
 .terms span{
 padding-right: 0.5rem;
 }
