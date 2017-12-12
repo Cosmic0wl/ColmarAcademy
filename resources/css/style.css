@@ -30,7 +30,7 @@ header {
  position: fixed;
  top: 0;
  z-index: 100;
- border-bottom: 0.0625rem solid lightgrey;
+ border-bottom: 0.0625rem solid #f1f1f1;
 }
 
 .logo {
@@ -46,6 +46,12 @@ nav {
 
 nav a {
   padding-right: 1rem;
+  text-decoration: none;
+  color: black;
+}
+
+nav a:active {
+  opacity: 0.6;
 }
 
 /* CONTAINER */
@@ -61,6 +67,9 @@ nav a {
   align-items: center;
   margin-top: 2rem;
   padding-top: 2rem;
+}
+.banner:hover {
+  background-color: #fafafa;
 }
 
 .student {
@@ -100,13 +109,21 @@ nav a {
   padding-bottom: 0.5rem;
 }
 
-.button p {
+.button a {
   background-color: #3393FF;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   text-align: center;
   width: 100%;
   color: white;
+  text-decoration: none;
+}
+.button a:hover {
+  opacity: 0.8;
+}
+
+.button a:active {
+  border-radius: 1rem;
 }
 
 /* CONTENT */
@@ -114,6 +131,10 @@ nav a {
   width: 100%;
   align-items: flex-start;
   margin-bottom: 2rem;
+}
+
+.content:hover {
+  background-color: #fafafa;
 }
 
 .student h2 {
@@ -133,7 +154,7 @@ nav a {
 /* INFO BAR */
 .info {
   width: 40%;
-  border-left: solid 0.0625rem lightgrey;
+  border-left: solid 0.0625rem #e9e9e9;
   padding-top: 2rem;
   padding-right: 0.5rem;
 }
@@ -141,6 +162,10 @@ nav a {
   display: flex;
   align-items: center;
   width: 100%;
+}
+
+.item:hover {
+  background-color: #F0F8FF;
 }
 
 .item img {
@@ -155,6 +180,12 @@ nav a {
 
 .text a {
   color: #3393FF;
+  text-decoration: none;
+}
+
+.text a:active {
+  color: #C9DDFF;
+  text-decoration: underline;
 }
 
 
@@ -170,6 +201,10 @@ nav a {
   flex-wrap: wrap;
 }
 
+.section:hover {
+  background-color: #fafafa;
+}
+
 .course {
   width: 25%;
   align-items: baseline;
@@ -180,7 +215,12 @@ nav a {
   line-height: 1rem;
   overflow: hidden;
   background-color: white;
-  border: 0.0125rem solid lightgrey;
+  border: 0.0125rem solid #f1f1f1;
+}
+
+.course:hover {
+  background-color: #F0F8FF;
+  opacity: 0.8;
 }
 
 .course img {
@@ -222,7 +262,7 @@ footer {
   align-items: flex-start;
   width: 100%;
   height: 4rem;
-  border: 0.0625rem solid lightgrey;
+  border-top: 0.0625rem solid #f1f1f1;
 }
 
 footer span{
