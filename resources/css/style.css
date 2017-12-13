@@ -54,6 +54,15 @@ nav a:active {
   opacity: 0.6;
 }
 
+@media only screen and (max-width:480px) {
+  .logo span {
+    display: none;
+  }
+  .nav a {
+    display: none !important;
+  }
+}
+
 /* CONTAINER */
 
 .container {
@@ -122,6 +131,21 @@ nav a:active {
   opacity: 0.8;
 }
 
+@media only screen and (max-width:480px) {
+  .banner {
+    flex-direction: column;
+  }
+
+  .descr {
+    width: 100%;
+  }
+
+  .button {
+    width: 100%;
+    padding-left: 1rem;
+  }
+}
+
 /* CONTENT */
 .content {
   width: 100%;
@@ -144,6 +168,12 @@ nav a:active {
 
 .student span {
   font-size: 0.8rem;
+}
+
+@media only screen and (max-width:480px) {
+  .content .student {
+    display: none;
+  }
 }
 
 /* INFO BAR */
@@ -181,6 +211,18 @@ nav a:active {
 .text a:active {
   color: #C9DDFF;
   text-decoration: underline;
+}
+
+@media only screen and (max-width:480px) {
+  .info {
+    width: 100%;
+  }
+  .item {
+    flex-direction: column;
+  }
+  .item img {
+    height: auto;
+  }
 }
 
 
@@ -229,6 +271,11 @@ nav a:active {
 .detail p {
   padding-top: 0.5rem;
 }
+@media only screen and (max-width:480px) {
+  .course img, .detail p {
+    display: none
+  }
+}
 
 /* THESIS EXHIBIT */
 .video {
@@ -251,6 +298,19 @@ video {
   height: auto;
   display: block;
 }
+
+@media only screen and (max-width:480px) {
+  .content {
+    flex-direction: column;
+  }
+  .video h3, .video p {
+    display: none;
+  }
+  video {
+    width: 100%;
+  }
+}
+
 /* FOOTER */
 footer {
   justify-content: space-between;
@@ -281,4 +341,10 @@ footer span{
 }
 .terms span{
 padding-right: 0.5rem;
+}
+
+@media only screen and (max-width:480px) {
+  .terms {
+    display: none;
+  }
 }
