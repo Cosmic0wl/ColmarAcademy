@@ -54,13 +54,25 @@ nav a:active {
   opacity: 0.6;
 }
 
+@media only screen and (min-width:480px) {
+  .mobile-nav {
+    display: none;
+  }
+}
+
 @media only screen and (max-width:480px) {
   .logo span {
     display: none;
   }
-  .nav a {
-    display: none !important;
+  nav {
+    display: none;
   }
+
+  .mobile-nav {
+    display: flex;
+    justify-content: space-around;
+  }
+
 }
 
 /* CONTAINER */
@@ -177,7 +189,7 @@ nav a:active {
 }
 
 /* INFO BAR */
-.info {
+.info, .info2 {
   width: 40%;
   border-left: solid 0.0625rem #e9e9e9;
   padding-top: 2rem;
@@ -219,9 +231,10 @@ nav a:active {
   }
   .item {
     flex-direction: column;
+    width: 100%;
   }
   .item img {
-    height: auto;
+    width: 100%;
   }
 }
 
@@ -272,6 +285,23 @@ nav a:active {
   padding-top: 0.5rem;
 }
 @media only screen and (max-width:480px) {
+
+  .catalog {
+    flex-flow: column nowrap;
+  }
+  .title {
+   margin-bottom: 1rem;
+  }
+  .course {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 0.5rem;
+  }
+
+  .detail {
+    padding: 1rem 2rem 1rem;
+  }
+
   .course img, .detail p {
     display: none
   }
@@ -306,9 +336,14 @@ video {
   .video h3, .video p {
     display: none;
   }
-  video {
+  .video {
     width: 100%;
   }
+
+  .info2 {
+    display: none;
+  }
+
 }
 
 /* FOOTER */
@@ -344,6 +379,12 @@ padding-right: 0.5rem;
 }
 
 @media only screen and (max-width:480px) {
+
+footer {
+  border-top: none;
+  padding: 1rem 1rem;
+}
+
   .terms {
     display: none;
   }
