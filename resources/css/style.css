@@ -122,10 +122,6 @@ nav a:active {
   opacity: 0.8;
 }
 
-.button a:active {
-  border-radius: 1rem;
-}
-
 /* CONTENT */
 .content {
   width: 100%;
