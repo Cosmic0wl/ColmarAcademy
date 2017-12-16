@@ -151,18 +151,36 @@ nav a:active {
 }
 
 @media only screen and (max-width:480px) {
+
   .banner {
     flex-direction: column;
     padding-bottom: 2rem;
+    width: 100%;
+    border: 1px solid yellow;
+    margin-top: 0;
   }
 
-  .descr {
+  .student {
     width: 100%;
   }
 
   .button {
     width: 100%;
-    padding-left: 1rem;
+    padding: 0;
+    border: 1px solid purple;
+    margin: 0;
+  }
+
+  .button h1 {
+    padding-bottom: 2rem;
+  }
+
+  .button h4 {
+    padding-bottom: 1.5rem;
+  }
+
+  .button p {
+    width: 100%;
   }
 }
 
@@ -199,8 +217,7 @@ nav a:active {
 /* INFO BAR */
 .info, .info2 {
   width: 40%;
-  border-left: solid 0.0625rem hsl(0, 0%, 93%);
-  padding-top: 2rem;
+  padding-top: 1rem;
   padding-right: 0.5rem;
 }
 .item {
@@ -210,7 +227,7 @@ nav a:active {
 }
 
 .item:hover {
-  background-color: hsl(208, 100%, 97%);
+  background-color: hsl(218, 100%, 97%);
 }
 
 .item img {
@@ -221,6 +238,10 @@ nav a:active {
 
 .text {
   width: 65%;
+}
+
+.text h3, .text p {
+  padding-bottom: 0.5rem;
 }
 
 .text a {
@@ -254,7 +275,6 @@ nav a:active {
     height: auto;
     overflow: hidden;
     padding-bottom: 1rem;
-    padding-top: 1rem;
   }
   .item .desktop {
     display: none;
@@ -271,7 +291,6 @@ nav a:active {
 /* COURSES CATALOG */
 .title {
   padding-top: 2rem;
-  margin-bottom: 2rem;
   justify-content: center;
 }
 
@@ -298,7 +317,7 @@ nav a:active {
 }
 
 .course:hover {
-  background-color: hsl(208, 100%, 97%);
+  background-color: hsl(218, 100%, 97%);
   opacity: 0.8;
 }
 
@@ -318,18 +337,21 @@ nav a:active {
   .catalog {
     flex-flow: column nowrap;
     align-items: center;
+    padding: 0;
   }
   .title {
    margin-bottom: 1rem;
   }
   .course {
-    width: 100%;
+    width: 90%;
     text-align: left;
     margin-bottom: 0.5rem;
+    padding: 0;
+    margin-left: 0;;
   }
 
   .detail {
-    padding: 1rem 2rem 1rem;
+    padding: 1.5rem 1rem;
   }
 
   .course img, .detail p {
@@ -339,14 +361,14 @@ nav a:active {
 
 /* THESIS EXHIBIT */
 .video {
-  padding: 2rem 1.5rem 1.5rem;
+  padding: 2rem 1.5rem;
   width: 60%;
   height: auto;
   overflow: hidden;
 }
 
 .video h3 {
-  padding-top: 2rem;
+  padding-top: 1.5rem;
 }
 
 .video p {
@@ -363,11 +385,15 @@ video {
   .content {
     flex-direction: column;
   }
+  .title {
+   margin-bottom: 1rem;
+  }
   .video h3, .video p {
     display: none;
   }
   .video {
     width: 100%;
+    padding: 0;
   }
 
   .info2 {
@@ -399,7 +425,7 @@ footer span{
 }
 
 .copyright {
-  padding-left: 2rem;
+  padding-left: 1.5rem;
 }
 .terms {
   padding-right: 1rem;
