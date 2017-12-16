@@ -156,7 +156,6 @@ nav a:active {
     flex-direction: column;
     padding-bottom: 2rem;
     width: 100%;
-    border: 1px solid yellow;
     margin-top: 0;
   }
 
@@ -164,11 +163,13 @@ nav a:active {
     width: 100%;
   }
 
+  .description {
+    width: 90%;
+  }
+
   .button {
     width: 100%;
-    padding: 0;
-    border: 1px solid purple;
-    margin: 0;
+    padding-left: 1rem;
   }
 
   .button h1 {
@@ -285,6 +286,12 @@ nav a:active {
     height: auto;
     display: block;
   }
+
+  .item .text {
+    width: 90%;
+    padding-left: 1rem;
+  }
+
 }
 
 
@@ -340,14 +347,14 @@ nav a:active {
     padding: 0;
   }
   .title {
-   margin-bottom: 1rem;
+   padding-bottom: 1rem;
   }
   .course {
     width: 90%;
     text-align: left;
     margin-bottom: 0.5rem;
     padding: 0;
-    margin-left: 0;;
+    margin-left: 0;
   }
 
   .detail {
@@ -385,9 +392,7 @@ video {
   .content {
     flex-direction: column;
   }
-  .title {
-   margin-bottom: 1rem;
-  }
+
   .video h3, .video p {
     display: none;
   }
