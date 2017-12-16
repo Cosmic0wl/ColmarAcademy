@@ -30,7 +30,7 @@ header {
  position: fixed;
  top: 0;
  z-index: 100;
- border-bottom: 0.0625rem solid #f1f1f1;
+ border-bottom: 0.0625rem solid hsl(0, 0%, 90%);
 }
 
 .logo {
@@ -41,15 +41,19 @@ header {
 }
 
 nav {
-  padding-right: 0.5rem;
+  padding-right: 1rem;
 }
 
 nav a {
-  padding-right: 1rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
   text-decoration: none;
   color: black;
 }
-
+nav a:hover {
+  background-color: hsl(212, 100%, 70%);
+  color: white;
+}
 nav a:active {
   opacity: 0.6;
 }
@@ -72,6 +76,10 @@ nav a:active {
     width: 100%;
   }
 
+  .mobile-nav img:active {
+    opacity: 0.6;
+  }
+
 }
 
 /* CONTAINER */
@@ -89,7 +97,7 @@ nav a:active {
   padding-top: 2rem;
 }
 .banner:hover {
-  background-color: #fafafa;
+  background-color: hsl(0, 0%, 98%);
 }
 
 .student {
@@ -122,7 +130,7 @@ nav a:active {
   font-weight: bold;
   font-size: 2rem;
   padding-bottom: 0.5rem;
-  color: #3393FF;
+  color: hsl(212, 100%, 60%);
 }
 
 .button h4, .item p, .item a, .item h3 {
@@ -130,7 +138,7 @@ nav a:active {
 }
 
 .button a {
-  background-color: #3393FF;
+  background-color: hsl(212, 100%, 60%);
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   text-align: center;
@@ -165,7 +173,7 @@ nav a:active {
 }
 
 .content:hover {
-  background-color: #fafafa;
+  background-color: hsl(0, 0%, 98%);
 }
 
 .student h2 {
@@ -191,7 +199,7 @@ nav a:active {
 /* INFO BAR */
 .info, .info2 {
   width: 40%;
-  border-left: solid 0.0625rem #e9e9e9;
+  border-left: solid 0.0625rem hsl(0, 0%, 93%);
   padding-top: 2rem;
   padding-right: 0.5rem;
 }
@@ -202,7 +210,7 @@ nav a:active {
 }
 
 .item:hover {
-  background-color: #F0F8FF;
+  background-color: hsl(208, 100%, 97%);
 }
 
 .item img {
@@ -216,12 +224,16 @@ nav a:active {
 }
 
 .text a {
-  color: #3393FF;
+  color: hsl(212, 100%, 60%);
   text-decoration: none;
 }
 
+.text a:hover {
+  text-decoration: underline;
+}
+
 .text a:active {
-  color: #C9DDFF;
+  color: hsl(218, 100%, 89%);
   text-decoration: underline;
 }
 
@@ -269,7 +281,7 @@ nav a:active {
 }
 
 .section:hover {
-  background-color: #fafafa;
+  background-color: hsl(0, 0%, 98%);
 }
 
 .course {
@@ -282,11 +294,11 @@ nav a:active {
   line-height: 1rem;
   overflow: hidden;
   background-color: white;
-  border: 0.0125rem solid #f1f1f1;
+  border: 0.0125rem solid hsl(0, 0%, 95%);
 }
 
 .course:hover {
-  background-color: #F0F8FF;
+  background-color: hsl(208, 100%, 97%);
   opacity: 0.8;
 }
 
@@ -370,7 +382,7 @@ footer {
   align-items: flex-start;
   width: 100%;
   height: 4rem;
-  border-top: 0.0625rem solid #f1f1f1;
+  border-top: 0.0625rem solid hsl(0, 0%, 90%);
 }
 
 footer span{
