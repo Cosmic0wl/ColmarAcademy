@@ -50,10 +50,12 @@ nav a {
   text-decoration: none;
   color: black;
 }
+
 nav a:hover {
   background-color: hsl(212, 100%, 70%);
   color: hsl(0, 0%, 100%);
 }
+
 nav a:active {
   opacity: 0.6;
 }
@@ -79,7 +81,6 @@ nav a:active {
   .mobile-nav img:active {
     opacity: 0.6;
   }
-
 }
 
 /* CONTAINER */
@@ -96,6 +97,7 @@ nav a:active {
   margin-top: 2rem;
   padding-top: 2rem;
 }
+
 .banner:hover {
   background-color: hsl(0, 0%, 98%);
 }
@@ -146,6 +148,7 @@ nav a:active {
   color: hsl(0, 0%, 100%);
   text-decoration: none;
 }
+
 .button a:hover {
   opacity: 0.8;
 }
@@ -221,6 +224,7 @@ nav a:active {
   padding-top: 1rem;
   padding-right: 0.5rem;
 }
+
 .item {
   display: flex;
   align-items: center;
@@ -270,6 +274,7 @@ nav a:active {
     width: 100%;
     padding-bottom: 2rem;
   }
+
   .item {
     flex-direction: column;
     width: 100%;
@@ -277,6 +282,7 @@ nav a:active {
     overflow: hidden;
     padding-bottom: 1rem;
   }
+
   .item .desktop {
     display: none;
   }
@@ -291,7 +297,6 @@ nav a:active {
     width: 90%;
     padding-left: 1rem;
   }
-
 }
 
 
@@ -333,12 +338,15 @@ nav a:active {
   width: 100%;
   display: block;
 }
+
 .detail {
   padding: 1rem 1rem 1.5rem 1rem;
 }
+
 .detail p {
   padding-top: 0.5rem;
 }
+
 @media only screen and (max-width:480px) {
 
   .catalog {
@@ -346,9 +354,11 @@ nav a:active {
     align-items: center;
     padding: 0;
   }
+
   .title {
    padding-bottom: 1rem;
   }
+
   .course {
     width: 90%;
     text-align: left;
@@ -389,6 +399,7 @@ video {
 }
 
 @media only screen and (max-width:480px) {
+
   .content {
     flex-direction: column;
   }
@@ -404,7 +415,6 @@ video {
   .info2 {
     display: none;
   }
-
 }
 
 /* FOOTER */
@@ -421,6 +431,7 @@ footer span{
   letter-spacing: 0.0625rem;
   opacity: 0.6;
 }
+
 .copyright, .terms {
   margin-top: 1rem;
 }
@@ -432,10 +443,12 @@ footer span{
 .copyright {
   padding-left: 1.5rem;
 }
+
 .terms {
   padding-right: 1rem;
 }
-.terms span{
+
+.terms span {
 padding-right: 0.5rem;
 }
 
