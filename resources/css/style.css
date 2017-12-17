@@ -20,6 +20,7 @@ h3 {
   font-size: 1rem;
   font-weight: bold;
 }
+
 /* HEADER */
 header {
  width: 100%;
@@ -130,7 +131,8 @@ nav a:active {
 
 .button h1 {
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 2.5rem;
+  line-height: 3rem;
   padding-bottom: 0.5rem;
   color: hsl(212, 100%, 60%);
 }
@@ -177,6 +179,7 @@ nav a:active {
 
   .button h1 {
     padding-bottom: 2rem;
+    
   }
 
   .button h4 {
@@ -296,6 +299,7 @@ nav a:active {
   .item .text {
     width: 90%;
     padding-left: 1rem;
+    line-height: 1.5rem;
   }
 }
 
@@ -457,9 +461,10 @@ padding-right: 0.5rem;
 footer {
   border-top: none;
   padding: 1rem 1rem;
+  margin-top: 1.5rem;
 }
 
-  .terms {
+.terms {
     display: none;
   }
 }
